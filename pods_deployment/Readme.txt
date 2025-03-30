@@ -4,7 +4,7 @@ We will use the `tiangolo/uwsgi-nginx-flask` image, which comes pre-installed wi
 
 ? **Run the following command to create a Pod:**
 
-```bash
+```
 bash
 kubectl run my-python-app --image=tiangolo/uwsgi-nginx-flask:python3.8 --restart=Never
 ```
@@ -12,7 +12,6 @@ kubectl run my-python-app --image=tiangolo/uwsgi-nginx-flask:python3.8 --restart
 ? **Check if the Pod is running:**
 
 ```bash
-bas
 kubectl get pods
 ```
 
@@ -65,7 +64,7 @@ kubectl delete pod my-python-app
 
 ## **4?? Step 4: Create a Pod Using YAML**
 
-Now, let’s create a **YAML file** to define our Pod.
+Now, letâ€™s create a **YAML file** to define our Pod.
 
 ?? **Create a file named `python-pod.yaml` and add the following content:**
 
